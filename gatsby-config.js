@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `alexandreLima.dev()`,
+    titleP1: `alexandreLima`,
+    titleP2: `.`,
+    titleP3: `dev()`,
     author: `Alexandre Lima - Desenvolvedor Web`,
     position: `Desenvolvedor Web`,
     description: `Vou escrever aqui sobre frontend e programação em geral.`,

@@ -16,7 +16,9 @@ function SEO({ description, lang, meta, title }) {
       query {
         site {
           siteMetadata {
-            title
+            titleP1
+            titleP2
+            titleP3
             description
             author
           }
@@ -73,7 +75,7 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt-BR`,
   meta: [],
   description: ``,
 }
