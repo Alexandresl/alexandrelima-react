@@ -3,12 +3,13 @@ import PropTypes from "prop-types"
 import Profile from "../Profile"
 
 import styled from "styled-components"
+import GlobalStyles from "../styles/global"
 
 const LayoutWrapper = styled.section`
   display: flex;
 `
 const LayoutMain = styled.main`
-  background: rgba(0, 0, 0, 0.87);
+  background: #3b3c40;
   min-height: 100vh;
   padding: 0 3.75 0 20rem;
   width: 100%;
@@ -17,6 +18,7 @@ const LayoutMain = styled.main`
 const Layout = ({ children }) => {
   return (
     <LayoutWrapper>
+      <GlobalStyles />
       <aside>
         <Profile></Profile>
       </aside>
