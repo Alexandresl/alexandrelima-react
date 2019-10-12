@@ -33,7 +33,7 @@ export const MenuBarItem = styled.span`
   padding: 1.1rem;
   position: relative;
   width: 3.75rem;
-  transition: color 5s;
+  transition: color 1s;
   &:hover {
     color: #1fa1f2;
   }

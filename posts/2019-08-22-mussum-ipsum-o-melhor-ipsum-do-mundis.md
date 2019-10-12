@@ -14,6 +14,25 @@ A ordem dos tratores não altera o pão duris. Viva Forevis aptent taciti socios
 
 Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Quem num gosta di mé, boa gentis num é.
 
+```jsx
+import React from "react"
+import Profile from "../Profile"
+import SocialLinks from "../SocialLinks"
+import MenuLinks from "../MenuLinks"
+
+import * as S from "./style"
+
+const Sidebar = () => (
+  <S.SidebarWrapper>
+    <Profile />
+    <SocialLinks />
+    <MenuLinks />
+  </S.SidebarWrapper>
+)
+
+export default Sidebar
+```
+
 ### Nois bebis
 
 - Cevadis
@@ -26,4 +45,8 @@ Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Admodu
 
 ## E para fecharis
 
+![Desert](/assets/img/desert.jpg)
+
 Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Copo furadis é disculpa de bebadis, arcu quam euismod magna. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+
+![Lake](/assets/img/lake.jpg)
