@@ -12,3 +12,5 @@ const links = [
     url: "https://github.com/Alexandresl",
   },
 ]
+
+export default links
