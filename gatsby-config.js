@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    title: `Alexandre Lima - Desenvolvedor Web`,
     titleP1: `alexandreLima`,
     titleP2: `.`,
     titleP3: `dev()`,
@@ -15,6 +16,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
       },
     },
     `gatsby-transformer-sharp`,
