@@ -80,8 +80,8 @@ module.exports = {
         name: `Alexandre Lima`,
         short_name: `Alexandre Lima`,
         start_url: `/`,
-        background_color: `#f0f0f3`,
-        theme_color: `#f0f0f3`,
+        background_color: `#3B3C40`,
+        theme_color: `#3B3C40`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
