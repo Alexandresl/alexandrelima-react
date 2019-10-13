@@ -77,7 +77,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Alexandre Lima - Desenvolvedor Web`,
+        name: `Alexandre Lima`,
         short_name: `Alexandre Lima`,
         start_url: `/`,
         background_color: `#f0f0f3`,
