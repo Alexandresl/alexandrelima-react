@@ -11,6 +11,7 @@ module.exports = {
     author: `Alexandre Lima - Desenvolvedor Web`,
     position: `Desenvolvedor Web`,
     description: `Vou escrever aqui sobre frontend e programação em geral.`,
+    siteUrl: "https://alexandrelima.dev",
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -76,17 +77,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Alexandre Lima - Desenvolvedor Web`,
+        short_name: `Alexandre Lima`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#f0f0f3`,
+        theme_color: `#f0f0f3`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
