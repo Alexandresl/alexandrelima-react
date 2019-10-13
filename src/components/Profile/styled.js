@@ -2,17 +2,17 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const profileWrapper = styled.section`
-  color: #8899a6;
+  color: var(--texts);
   display: flex;
   flex-direction: column;
 `
 export const ProfileLink = styled(Link)`
-  color: #fff;
+  color: var(--postColor);
   text-decoration: none;
   transition: color 0.5s;
 
   &:hover {
-    color: #3f5bba;
+    color: var(--highlight);
   }
 `
 export const ProfileAuthor = styled.h1`
@@ -20,7 +20,7 @@ export const ProfileAuthor = styled.h1`
   margin: 0.5rem auto 0.5rem;
   padding-bottom: 0.5rem;
   display: inline-flex;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid var(--postColor);
 `
 
 export const p1 = styled.h1`
@@ -28,11 +28,11 @@ export const p1 = styled.h1`
 `
 
 export const p2 = styled.h1`
-  color: #fff;
+  color: var(--postColor);
 `
 
 export const p3 = styled.h1`
-  color: #3f5bba;
+  color: var(--highlight);
 `
 
 export const ProfilePosition = styled.small`
