@@ -1,8 +1,13 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const SocialLinksWrapper = styled.nav`
   margin: 20px auto;
   width: 100%;
+
+  ${media.lessThan("medium")`
+    display: none;
+  `}
 `
 export const SocialLinksList = styled.ul`
   align-items: center;

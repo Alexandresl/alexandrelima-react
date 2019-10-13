@@ -13,6 +13,7 @@ module.exports = {
     description: `Vou escrever aqui sobre frontend e programação em geral.`,
   },
   plugins: [
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     // needs to be the first to work with gatsby-remark-images

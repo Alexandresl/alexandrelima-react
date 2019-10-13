@@ -1,15 +1,21 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
+import media from "styled-media-query"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const profileWrapper = styled.section`
   color: var(--texts);
   display: flex;
   flex-direction: column;
 `
-export const ProfileLink = styled(Link)`
+export const ProfileLink = styled(AniLink)`
   color: var(--postColor);
   text-decoration: none;
   transition: color 0.5s;
+
+  ${media.lessThan("medium")`
+    display: flex;
+    text-align: left;  
+  `}
 
   &:hover {
     color: var(--highlight);
@@ -21,6 +27,13 @@ export const ProfileAuthor = styled.h1`
   padding-bottom: 0.5rem;
   display: inline-flex;
   border-bottom: 1px solid var(--postColor);
+
+  ${media.lessThan("medium")`
+    font-size: 1.2rem;
+    margin: 0 0 0 10px;
+    border-bottom: none;
+    line-height:  1.875rem;
+  `}
 `
 
 export const p1 = styled.h1`
@@ -39,10 +52,18 @@ export const ProfilePosition = styled.small`
   display: block;
   font-size: 1.1rem;
   font-weight: 100;
+
+  ${media.lessThan("medium")`
+    display: none;
+  `}
 `
 export const ProfileDescription = styled.p`
   font-size: 0.8rem;
   font-weight: 300;
   line-height: 1.4;
   margin-top: 15px;
+
+  ${media.lessThan("medium")`
+    display: none;
+  `}
 `

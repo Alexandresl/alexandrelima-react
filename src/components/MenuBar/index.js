@@ -20,12 +20,26 @@ const MenuBar = () => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
-        <S.MenuBarLink to="/" title="Voltar para a Home">
+        <S.MenuBarLink
+          cover
+          direction="right"
+          bg="var(--mediumBackground)"
+          duration={0.6}
+          to="/"
+          title="Voltar para a Home"
+        >
           <S.MenuBarItem>
             <Icons.Home />
           </S.MenuBarItem>
         </S.MenuBarLink>
-        <S.MenuBarLink to="/search/" title="Pesquisar">
+        <S.MenuBarLink
+          cover
+          direction="right"
+          bg="var(--mediumBackground)"
+          duration={0.6}
+          to="/search/"
+          title="Pesquisar"
+        >
           <S.MenuBarItem>
             <Icons.Search />
           </S.MenuBarItem>
@@ -46,6 +60,7 @@ const MenuBar = () => {
           onClick={() => {
             window.__setPreferredDisplay(isListMode ? "grid" : "list")
           }}
+          className="display"
         >
           {isListMode ? <Icons.Grid /> : <Icons.List />}
         </S.MenuBarItem>
