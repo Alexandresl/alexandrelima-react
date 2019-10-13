@@ -5,12 +5,16 @@ import * as S from "./styled"
 
 const MenuBar = () => {
   const [theme, setTheme] = useState(null)
+  const [display, setDisplay] = useState(null)
 
   const isDarkMode = theme === "dark"
+  const isListMode = display === "list"
 
   useEffect(() => {
     setTheme(window.__theme)
+    setDisplay(window.__display)
     window.__onThemeChange = () => setTheme(window.__theme)
+    window.__onDisplayChange = () => setDisplay(window.__display)
   }, [])
 
   return (
@@ -35,10 +39,15 @@ const MenuBar = () => {
           }}
           className={theme}
         >
-          <Icons.Light />
+          {isDarkMode ? <Icons.Light /> : <Icons.LightSolid />}
         </S.MenuBarItem>
-        <S.MenuBarItem title="Mudar a Visualização">
-          <Icons.Grid />
+        <S.MenuBarItem
+          title="Mudar a Visualização"
+          onClick={() => {
+            window.__setPreferredDisplay(isListMode ? "grid" : "list")
+          }}
+        >
+          {isListMode ? <Icons.Grid /> : <Icons.List />}
         </S.MenuBarItem>
         <S.MenuBarItem title="Ir para o topo">
           <Icons.Arrow />
