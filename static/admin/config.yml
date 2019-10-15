@@ -3,7 +3,6 @@ backend:
   repo: Alexandresl/alexandrelima-react
   branch: master # Branch to update (optional; defaults to master)
   site_domain: https://alexandrelima.dev/
-  base_url: https://alexandrelima.dev
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
