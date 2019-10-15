@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Alexandresl/alexandrelima-react
   branch: master # Branch to update (optional; defaults to master)
-  site_domain: https://alexandrelima.dev
+  site_domain: https://alexandrelima.dev/
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
