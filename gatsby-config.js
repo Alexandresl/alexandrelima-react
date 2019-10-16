@@ -10,7 +10,7 @@ module.exports = {
     titleP3: `dev()`,
     author: `Alexandre Lima - Desenvolvedor Web`,
     position: `Desenvolvedor Web`,
-    description: `Vou escrever aqui sobre frontend e programação em geral.`,
+    description: `Blog sobre programação web.`,
     siteUrl: "https://alexandrelima.dev",
   },
   plugins: [
