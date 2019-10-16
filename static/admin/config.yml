@@ -3,6 +3,7 @@ backend:
   repo: Alexandresl/alexandrelima-react
   branch: master
   site_domain: https://alexandrelima.dev/
+  base_url: https://api.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
