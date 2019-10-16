@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Alexandresl/alexandrelima-react
   branch: master
-  site_domain: https://alexandrelima.dev
+  site_domain: alexandrelima.dev
   base_url: https://api.netlify.com
 
 publish_mode: editorial_workflow
