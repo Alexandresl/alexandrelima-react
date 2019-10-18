@@ -17,8 +17,8 @@ Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Admodu
 
 ```jsx
 import Profile from "../Profile"
-import React from "react"
 import SocialLinks from "../SocialLinks"
+import React from "react"
 import MenuLinks from "../MenuLinks"
 
 import * as S from "./style"
