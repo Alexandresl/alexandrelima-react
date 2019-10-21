@@ -8,7 +8,7 @@ background: '#2da0c3'
 ---
 ### O que é o Flex Box e o CSS Grid?
 
-O Flex Box e o CSS Grid são duas tecnologias nativas do CSS e apesar de serem relativamente recentes já têm suporte na maioria dos browsers. Conforme o [Can I use](https://caniuse.com/){:target="_blank" rel="noopener"}, [98.06%](https://caniuse.com/#feat=flexbox){:target="_blank" rel="noopener"} dos navegadores já dão suporte ao Flex Box e [92.81%](https://caniuse.com/#search=css%20grid){:target="_blank" rel="noopener"} ao CSS Grid.
+O Flex Box e o CSS Grid são duas tecnologias nativas do CSS e apesar de serem relativamente recentes já têm suporte na maioria dos browsers. Conforme o site [Can I use](https://caniuse.com/), [98.06%](https://caniuse.com/#feat=flexbox) dos navegadores já dão suporte ao Flex Box e [92.81%](https://caniuse.com/#search=css%20grid) ao CSS Grid.
 
 Estas duas tecnologias se complementam, podendo ser utilizadas em conjunto no mesmo projeto.
 
