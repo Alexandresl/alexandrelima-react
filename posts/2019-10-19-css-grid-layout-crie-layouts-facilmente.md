@@ -14,9 +14,7 @@ Estas duas tecnologias se complementam, podendo ser utilizadas em conjunto no me
 
 ### Qual a diferença entre o Flex Box e o CSS Grid?
 
-O Flex Box foi projetado como um modelo de layout _unidimensional_. Oferece a possibilidade de distribuição de espaço entre itens em uma interface e capacidade de alinhamento. Assim, ao declararmos a propriedade 
-```css display: flex;``` 
-deverá ser definida se ela irá alinhar os itens de forma horizontal ou vertical, como veremos em seguida.
+O Flex Box foi projetado como um modelo de layout _unidimensional_. Oferece a possibilidade de distribuição de espaço entre itens em uma interface e capacidade de alinhamento. Assim, ao declararmos a propriedade ```display: flex;```deverá ser definida se ela irá alinhar os itens de forma horizontal ou vertical, como veremos em seguida.
 
 Já o CSS Grid permite a criação de layout _bi-dimensional_, ou seja, permite que criemos layout com o uso de linhas e colunas, assim, ele é bastante utilizado para fazer essa organização mais macro do site.
 
