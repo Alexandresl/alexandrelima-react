@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react"
 
+import getThemeColor from "../../utils/getThemeColor"
+
 import Icons from "./icons"
 import * as S from "./styled"
+import * as GA from "./trackers"
 
 const MenuBar = () => {
   const [theme, setTheme] = useState(null)
@@ -9,6 +12,11 @@ const MenuBar = () => {
 
   const isDarkMode = theme === "dark"
   const isListMode = display === "list"
+
+  if ((theme !== null) & (display !== null)) {
+    GA.themeTracker(theme)
+    GA.displayTracker(display)
+  }
 
   useEffect(() => {
     setTheme(window.__theme)
@@ -23,7 +31,7 @@ const MenuBar = () => {
         <S.MenuBarLink
           cover
           direction="right"
-          bg="var(--mediumBackground)"
+          bg="getThemeColor()"
           duration={0.6}
           to="/"
           title="Voltar para a Home"
@@ -35,7 +43,7 @@ const MenuBar = () => {
         <S.MenuBarLink
           cover
           direction="right"
-          bg="var(--mediumBackground)"
+          bg="getThemeColor()"
           duration={0.6}
           to="/search/"
           title="Pesquisar"
@@ -50,6 +58,14 @@ const MenuBar = () => {
           title="Mudar o tema"
           onClick={() => {
             window.__setPreferredTheme(isDarkMode ? "light" : "dark")
+
+            if (window.DISQUS !== undefined) {
+              window.setTimeout(() => {
+                window.DISQUS.reset({
+                  reload: true,
+                })
+              }, 300)
+            }
           }}
           className={theme}
         >
@@ -64,7 +80,13 @@ const MenuBar = () => {
         >
           {isListMode ? <Icons.Grid /> : <Icons.List />}
         </S.MenuBarItem>
-        <S.MenuBarItem title="Ir para o topo">
+        <S.MenuBarItem
+          title="Ir para o topo"
+          onClick={() => {
+            GA.topClickTrack()
+            window.scroll({ top: 0, behavior: "smooth" })
+          }}
+        >
           <Icons.Arrow />
         </S.MenuBarItem>
       </S.MenuBarGroup>
