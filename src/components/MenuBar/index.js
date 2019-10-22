@@ -4,7 +4,6 @@ import getThemeColor from "../../utils/getThemeColor"
 
 import Icons from "./icons"
 import * as S from "./styled"
-import * as GA from "./trackers"
 
 const MenuBar = () => {
   const [theme, setTheme] = useState(null)
@@ -12,11 +11,6 @@ const MenuBar = () => {
 
   const isDarkMode = theme === "dark"
   const isListMode = display === "list"
-
-  if ((theme !== null) & (display !== null)) {
-    GA.themeTracker(theme)
-    GA.displayTracker(display)
-  }
 
   useEffect(() => {
     setTheme(window.__theme)
@@ -83,7 +77,6 @@ const MenuBar = () => {
         <S.MenuBarItem
           title="Ir para o topo"
           onClick={() => {
-            GA.topClickTrack()
             window.scroll({ top: 0, behavior: "smooth" })
           }}
         >
