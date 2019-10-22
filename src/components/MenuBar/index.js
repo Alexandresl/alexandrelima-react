@@ -25,7 +25,7 @@ const MenuBar = () => {
         <S.MenuBarLink
           cover
           direction="right"
-          bg="getThemeColor()"
+          bg={getThemeColor()}
           duration={0.6}
           to="/"
           title="Voltar para a Home"
@@ -37,7 +37,7 @@ const MenuBar = () => {
         <S.MenuBarLink
           cover
           direction="right"
-          bg="getThemeColor()"
+          bg={getThemeColor()}
           duration={0.6}
           to="/search/"
           title="Pesquisar"
@@ -62,6 +62,7 @@ const MenuBar = () => {
             }
           }}
           className={theme}
+          isDarkMode={isDarkMode}
         >
           {isDarkMode ? <Icons.Light /> : <Icons.LightSolid />}
         </S.MenuBarItem>
