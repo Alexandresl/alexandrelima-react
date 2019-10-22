@@ -50,24 +50,17 @@ module.exports = {
             },
           },
           {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow",
+            },
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 960,
               linkImagesToOriginal: false,
-            },
-          },
-          {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-              plugins: [
-                {
-                  resolve: "gatsby-remark-external-links",
-                  options: {
-                    target: "_blank",
-                    rel: "nofollow",
-                  },
-                },
-              ],
             },
           },
           `gatsby-remark-lazy-load`,
