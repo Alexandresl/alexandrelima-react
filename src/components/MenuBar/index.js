@@ -56,7 +56,7 @@ const MenuBar = () => {
 
             if (
               window.DISQUS !== undefined &&
-              document.querySelector(".styled__CommentsWrapper")
+              document.querySelector("#disqus_thread")
             ) {
               window.setTimeout(() => {
                 window.DISQUS.reset({
