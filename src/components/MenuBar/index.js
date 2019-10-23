@@ -54,23 +54,17 @@ const MenuBar = () => {
           onClick={() => {
             window.__setPreferredTheme(isDarkMode ? "light" : "dark")
 
-            const pageUrl = document.location.href
-
-            DISQUS.reset({
-              reload: true,
-              config: function() {
-                this.page.identifier = pageUrl
-                this.page.url = pageUrl
-              },
-            })
-
-            // if (window.DISQUS !== undefined) {
-            //   window.setTimeout(() => {
-            //     window.DISQUS.reset({
-            //       reload: true,
-            //     })
-            //   }, 300)
-            // }
+            if (window.DISQUS !== undefined) {
+              try {
+                window.setTimeout(() => {
+                  window.DISQUS.reset({
+                    reload: true,
+                  })
+                }, 300)
+              } catch (e) {
+                console.log("no reload")
+              }
+            }
           }}
           className={theme}
           isDarkMode={isDarkMode}
