@@ -6,6 +6,9 @@ import Icons from "./icons"
 import * as S from "./styled"
 
 const MenuBar = () => {
+  const [theme, setTheme] = useState(null)
+  const [display, setDisplay] = useState(null)
+
   const isDarkMode = theme === "dark"
   const isListMode = display === "list"
 
