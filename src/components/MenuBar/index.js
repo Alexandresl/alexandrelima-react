@@ -54,16 +54,15 @@ const MenuBar = () => {
           onClick={() => {
             window.__setPreferredTheme(isDarkMode ? "light" : "dark")
 
-            if (window.DISQUS !== undefined) {
-              try {
-                window.setTimeout(() => {
-                  window.DISQUS.reset({
-                    reload: true,
-                  })
-                }, 300)
-              } catch (e) {
-                console.log("no reload")
-              }
+            if (
+              window.DISQUS !== undefined &&
+              document.querySelector(".styled__CommentsWrapper")
+            ) {
+              window.setTimeout(() => {
+                window.DISQUS.reset({
+                  reload: true,
+                })
+              }, 300)
             }
           }}
           className={theme}
