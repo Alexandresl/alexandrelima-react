@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Avatar from "../Avatar"
 import * as S from "./styled"
 
-import getThemeColor from '../../utils/getThemeColor'
+import getThemeColor from "../../utils/getThemeColor"
 
 const Profile = () => {
   const {

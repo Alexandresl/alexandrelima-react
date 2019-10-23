@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import * as S from "./styled"
-import getThemeColor from '../../utils/getThemeColor'
+import getThemeColor from "../../utils/getThemeColor"
 
 const PostItem = ({
   slug,

@@ -3,7 +3,7 @@ import React from "react"
 import links from "./content"
 import * as S from "./styled"
 
-import getThemeColor from '../../utils/getThemeColor'
+import getThemeColor from "../../utils/getThemeColor"
 
 const MenuLinks = () => (
   <S.MenuLinksWrapper>
