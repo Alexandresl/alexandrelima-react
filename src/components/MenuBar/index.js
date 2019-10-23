@@ -50,7 +50,7 @@ const MenuBar = () => {
       </S.MenuBarGroup>
       <S.MenuBarGroup>
         <S.MenuBarItem
-          itle="Mudar o Tema"
+          title="Mudar o Tema"
           onClick={() => {
             window.__setPreferredTheme(isDarkMode ? "light" : "dark")
 
