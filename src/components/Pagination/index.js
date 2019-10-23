@@ -3,6 +3,7 @@ import propTypes from "prop-types"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import * as S from "./styled"
+import getThemeColor from '../../utils/getThemeColor'
 
 const Pagination = ({
   isFirst,
@@ -17,7 +18,7 @@ const Pagination = ({
       <AniLink
         cover
         direction="right"
-        bg="var(--mediumBackground)"
+        bg={getThemeColor()}
         duration={0.6}
         to={prevPage}
       >
@@ -31,7 +32,7 @@ const Pagination = ({
       <AniLink
         cover
         direction="left"
-        bg="var(--mediumBackground)"
+        bg={getThemeColor()}
         duration={0.6}
         to={nextPage}
       >
