@@ -1,5 +1,5 @@
 ---
-title: Criando layouts - 1ª parte - Flex Box
+title: Criando layouts - 1ª parte - Flexbox
 description: >-
   Nesta série de posts, vou mostrar como poderemos criar layouts de forma
   simples utilizando o Flex Box e o CSS Grid.
