@@ -1,6 +1,8 @@
 ---
-title: Flex Box e CSS Grid Layout - Crie layouts facilmente
-description: Cmo criar layouts utilizando o Flex Box e o CSS Grid Layout
+title: Criando layouts - 1ª parte - Flex Box
+description: >-
+  Nesta série de posts, vou mostrar como poderemos criar layouts de forma
+  simples utilizando o Flex Box e o CSS Grid.
 date: '2019-10-19 11:08:10'
 image: /assets/img/main.jpg
 category: CSS
