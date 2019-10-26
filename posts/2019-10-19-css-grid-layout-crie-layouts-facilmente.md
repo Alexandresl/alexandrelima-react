@@ -18,6 +18,11 @@ Além disso, o _Flexbox_ é independente da direção, podendo seu utilizado par
 
 Embora o _Flexbox_ tenha esta flexibilidade (sem trocadilhos), veremos que sua utilização é mais apropriada para componentes de um aplicativo e layout de pequena escala, enquanto que o CSS grid (que também irei falar posteriormente) fornecerá suporte maior para a criação de layouts mais complexos.
 
+### Fundamentos
+
+O _Flexbox_ é um módulo inteiro, não apenas uma propriedade, assim envolve diversas coisas, incluindo um conjunto de propriedades. Alguns deles devem ser definidos no contêiner (elemento pai, conhecido com _Flex Container_), enquanto outros devem ser definidos nos filhos (chamados de _Flex Item_).
+
+
 
 Figura 1
 ![Imagem mostrando Main Axis e o Cross Axis](/assets/img/grupo-3.jpg "Flex Box - Main Axis e Cross Axis")
