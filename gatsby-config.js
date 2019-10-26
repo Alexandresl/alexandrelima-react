@@ -65,6 +65,7 @@ module.exports = {
           },
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,
+          `gatsby-remark-embedder`,
         ],
       },
     },
@@ -79,12 +80,6 @@ module.exports = {
         queries,
         chunkSize: 10000, // default: 1000
         enablePartialUpdates: true, // default: false
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-embedder`],
       },
     },
     {
