@@ -47,6 +47,7 @@ Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele 
   <div class="item">4</div>
 </section>
 ```
+
 ```css
 .container {
   max-width: 800px;
@@ -59,8 +60,8 @@ Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele 
   border: 1px solid #ccc;
   padding: 20px;
 }
+```
 
-``
 Clique em "Run Pen" para ver o resultado do código acima:
 
 https://codepen.io/alexandresl/pen/eYYRVeg
