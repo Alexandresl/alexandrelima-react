@@ -39,10 +39,25 @@ Figura 1
 
 Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele se comportam.
 
-<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="alexandresl" data-slug-hash="eYYRVeg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="eYYRVeg">
-  <span>See the Pen <a href="https://codepen.io/alexandresl/pen/eYYRVeg">
-  eYYRVeg</a> by Alexandresl (<a href="https://codepen.io/alexandresl">@alexandresl</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+<div class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="alexandresl" data-slug-hash="eYYRVeg" data-prefill='{"tags":[],"stylesheets":[],"scripts":[]}'>
+  <pre data-lang="html">&lt;section class="container">
+  &lt;div class="item">1&lt;/div>
+  &lt;div class="item">2&lt;/div>
+  &lt;div class="item">3&lt;/div>
+  &lt;div class="item">4&lt;/div>
+&lt;/section></pre>
+  <pre data-lang="css" >.container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 20px;
+}</pre>
+  
+</div>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
