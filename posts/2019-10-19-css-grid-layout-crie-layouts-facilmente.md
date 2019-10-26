@@ -8,19 +8,16 @@ image: /assets/img/main.jpg
 category: CSS
 background: '#2da0c3'
 ---
-### O que é o Flex Box e o CSS Grid?
+### Flexbox
 
-O Flex Box e o CSS Grid são duas tecnologias nativas do CSS e apesar de serem relativamente recentes já têm suporte na maioria dos browsers. Conforme o site [Can I use](https://caniuse.com/), [98.06%](https://caniuse.com/#feat=flexbox) dos navegadores já dão suporte ao Flex Box e [92.81%](https://caniuse.com/#search=css%20grid) ao CSS Grid.
+O _flexbox_ Layout vem para resolver de forma mais eficiente a forma como organizamos, alinhamos e distribuímos os espaços entre os itens de um contêiner. Uma das vantagens que o Flexbox nos proporciona é a de conseguimos fazer isso mesmo quando o tamanho dos itens é desconhecido ou dinâmico.
 
-Estas duas tecnologias se complementam, podendo ser utilizadas em conjunto no mesmo projeto.
+A principal ideia por trás do _Flexbox_ é dar ao contêiner a capacidade de alterar a largura, altura e até a ordem de seus itens para melhor preencher o espaço disponível. Isso facilita muito a criação de elementos de layout que conseguem se acomodar em todos os tipos de dispositivos de exibição e tamanhos de tela. Um contêiner _Flexbox_ poderá expandir itens para preencher espaços livres disponíveis ou os reduzir para evitar o indesejável _overflow_
 
-### Qual a diferença entre o Flex Box e o CSS Grid?
+Além disso, o _Flexbox_ é independente da direção, podendo seu utilizado para organizar tanto itens na vertical quanto na horizontal. 
 
-O Flex Box foi projetado como um modelo de layout _unidimensional_. Oferece a possibilidade de distribuição de espaço entre itens em uma interface e capacidade de alinhamento. Assim, ao declararmos a propriedade ```display: flex;``` deverá ser definida se ela irá alinhar os itens de forma horizontal ou vertical, como veremos em seguida.
+Embora o _Flexbox_ tenha esta flexibilidade (sem trocadilhos), veremos que sua utilização é mais apropriada para componentes de um aplicativo e layout de pequena escala, enquanto que o CSS grid (que também irei falar posteriormente) fornecerá suporte maior para a criação de layouts mais complexos.
 
-Já o CSS Grid permite a criação de layout _bi-dimensional_, ou seja, permite que criemos layout com o uso de linhas e colunas, assim, ele é bastante utilizado para fazer essa organização mais macro do site.
-
-### Flex Box
 
 Figura 1
 ![Imagem mostrando Main Axis e o Cross Axis](/assets/img/grupo-3.jpg "Flex Box - Main Axis e Cross Axis")
