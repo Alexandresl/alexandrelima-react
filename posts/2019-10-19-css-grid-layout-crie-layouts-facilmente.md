@@ -32,3 +32,17 @@ Figura 1
 * **main start** e **main end** - Os _flex item_ serão dispostos no contêiner começando no _main start_ até o _main end_.
 * **main size** - Largura (_width_) ou altura (_height_) de um _Flex Container_ ou de um _Flex item_.
 * **cross axis** - Eixo perpendicular ao eixo principal é chamado de _cross axis_. Sua posição (horizontal ou vertical) dependerá do _main axis_.
+* **cross start** e **cross end** - Quando os itens, dentro de um _Flex container_ ocupam mais de uma linha, estas são colocadas no contêiner iniciando no _cross start_ em direção ao _cross end_.
+* **cross size** - A propriedade _cross size_ é qualquer que seja a _largura_ ou _altura_ que esteja na direção do _cross axis_.
+
+### Como criar um _flex container_
+
+Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele se comportam.
+
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="alexandresl" data-slug-hash="eYYRVeg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="eYYRVeg">
+  <span>See the Pen <a href="https://codepen.io/alexandresl/pen/eYYRVeg">
+  eYYRVeg</a> by Alexandresl (<a href="https://codepen.io/alexandresl">@alexandresl</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
