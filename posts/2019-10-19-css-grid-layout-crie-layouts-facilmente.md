@@ -39,25 +39,5 @@ Figura 1
 
 Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele se comportam.
 
-<div class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="alexandresl" data-slug-hash="eYYRVeg" data-prefill='{"tags":[],"stylesheets":[],"scripts":[]}'>
-  <pre data-lang="html">&lt;section class="container">
-  &lt;div class="item">1&lt;/div>
-  &lt;div class="item">2&lt;/div>
-  &lt;div class="item">3&lt;/div>
-  &lt;div class="item">4&lt;/div>
-&lt;/section></pre>
-  <pre data-lang="css" >.container {
-  max-width: 800px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  display: flex;
-}
-
-.item {
-  border: 1px solid #ccc;
-  padding: 20px;
-}</pre>
-  
-</div>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+https://codepen.io/alexandresl/pen/eYYRVeg
 
