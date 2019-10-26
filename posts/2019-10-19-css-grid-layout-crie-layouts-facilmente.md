@@ -40,15 +40,18 @@ Figura 1
 Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele se comportam.
 
 ```html
+
 <section class="container">
   <div class="item">1</div>
   <div class="item">2</div>
   <div class="item">3</div>
   <div class="item">4</div>
 </section>
+
 ```
 
 ```css
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -60,6 +63,7 @@ Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele 
   border: 1px solid #ccc;
   padding: 20px;
 }
+
 ```
 
 Clique em "Run Pen" para ver o resultado do código acima:
