@@ -60,7 +60,7 @@ Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele 
   border: 1px solid #ccc;
   padding: 20px;
 }
-``
+```
 
 Clique em "Run Pen" para ver o resultado do código acima:
 
