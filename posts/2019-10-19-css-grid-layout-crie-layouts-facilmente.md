@@ -61,6 +61,7 @@ Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele 
 }
 
 ``
+Clique em "Run Pen" para ver o resultado do código acima:
 
 https://codepen.io/alexandresl/pen/eYYRVeg
 
