@@ -25,4 +25,3 @@ O _Flexbox_ é um módulo inteiro, não apenas uma propriedade, assim envolve di
 
 
 Figura 1
-![Imagem mostrando Main Axis e o Cross Axis](/assets/img/grupo-3.jpg "Flex Box - Main Axis e Cross Axis")
