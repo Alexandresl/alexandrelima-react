@@ -48,7 +48,7 @@ Inicialmente vamos criar o nosso _Flex Container_ que será uma section com uma 
 </section>
 ```
 
-Já no CSS, vamos além de definir a largura máxima, as margens e colocar um borda na section _container_, vamos utilizar o ```display: flex``` para determinar que este será um _Flex Container_. Para os itens apenas foi definida uma borda e uma margem interna (padding) para melhorar a visualização do exemplo.
+Já no CSS, além de definir a largura máxima, as margens e colocar um borda na section _container_, vamos utilizar o ```display: flex``` para determinar que este será um _Flex Container_. Para os itens apenas foi definida uma borda e uma margem interna (padding) para melhorar a visualização do exemplo.
 
 ```css
 .container {
