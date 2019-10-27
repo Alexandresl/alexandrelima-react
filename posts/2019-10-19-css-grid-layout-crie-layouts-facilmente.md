@@ -64,8 +64,6 @@ Já no CSS, além de definir a largura máxima, as margens e colocar um borda na
 }
 ```
 
-Clique em "Run Pen" para ver o resultado do código acima:
-
 https://codepen.io/alexandresl/pen/eYYRVeg
 
 Como podemos ver, os itens ficaram todos alinhados a esquerda de nosso _flex container_.
