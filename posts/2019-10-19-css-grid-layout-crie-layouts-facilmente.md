@@ -48,7 +48,7 @@ Inicialmente vamos criar o nosso _Flex Container_ que será uma section com uma 
 </section>
 ```
 
-Já no CSS, vamos além de definir a largura máxima, as margens e colocar um borda na section _container_, vamos utilizar o ```display: flex``` para determinar que este será um _Flex Container_. Para os itens apenas foi definida uma borda e uma margem interna (padding) para melhorar a visualização do exemplo.
+Já no CSS, além de definir a largura máxima, as margens e colocar um borda na section _container_, vamos utilizar o ```display: flex``` para determinar que este será um _Flex Container_. Para os itens apenas foi definida uma borda e uma margem interna (padding) para melhorar a visualização do exemplo.
 
 ```css
 .container {
@@ -64,11 +64,10 @@ Já no CSS, vamos além de definir a largura máxima, as margens e colocar um bo
 }
 ```
 
-Clique em "Run Pen" para ver o resultado do código acima:
-
 https://codepen.io/alexandresl/pen/eYYRVeg
 
 Como podemos ver, os itens ficaram todos alinhados a esquerda de nosso _flex container_.
 
 No próximo post, vamos conhecer diversas propriedades que podemos utilizar junto com o _flexbox_. Vamos realmente ver a mágica acontecer!
 
+https://codepen.io/hus_hmd/pen/vYYgrBM
