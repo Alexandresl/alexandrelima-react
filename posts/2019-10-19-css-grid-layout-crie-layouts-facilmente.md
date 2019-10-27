@@ -37,21 +37,20 @@ Figura 1
 
 ### Como criar um _flex container_
 
-Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele se comportam.
+Inicialmente vamos criar o nosso _Flex Container_ que será uma section com uma classe container. Dentro desta section teremos 4 divs, cada uma é um _flex item_.
 
 ```html
-
 <section class="container">
   <div class="item">1</div>
   <div class="item">2</div>
   <div class="item">3</div>
   <div class="item">4</div>
 </section>
-
 ```
 
-```css
+Já no CSS, vamos além de definir a largura máxima, as margens e colocar um borda na section _container_, vamos utilizar o ```display: flex``` para determinar que este será um _Flex Container_. Para os itens apenas foi definida uma borda e uma margem interna (padding) para melhorar a visualização do exemplo.
 
+```css
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -63,10 +62,13 @@ Inicialmente vamos criar um _container_ simples e ver como os itens dentro dele 
   border: 1px solid #ccc;
   padding: 20px;
 }
-
 ```
 
 Clique em "Run Pen" para ver o resultado do código acima:
 
 https://codepen.io/alexandresl/pen/eYYRVeg
+
+Como podemos ver, os itens ficaram todos alinhados a esquerda de nosso _flex container_.
+
+No próximo post, vamos conhecer diversas propriedades que podemos utilizar junto com o _flexbox_. Vamos realmente ver a mágica acontecer!
 
