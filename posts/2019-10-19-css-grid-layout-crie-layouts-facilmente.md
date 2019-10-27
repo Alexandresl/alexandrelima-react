@@ -70,3 +70,4 @@ Como podemos ver, os itens ficaram todos alinhados a esquerda de nosso _flex con
 
 No próximo post, vamos conhecer diversas propriedades que podemos utilizar junto com o _flexbox_. Vamos realmente ver a mágica acontecer!
 
+https://codepen.io/hus_hmd/pen/vYYgrBM
