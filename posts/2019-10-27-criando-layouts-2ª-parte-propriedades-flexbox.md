@@ -63,6 +63,10 @@ Exemplo:
 ```css
 h3 {
   text-align: center;
+  color: #333;
+  font-family: verdana;
+  font-size: 18px;
+  font-weight: 300;
 }
 .container {
   max-width: 400px;
