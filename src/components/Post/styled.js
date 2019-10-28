@@ -193,6 +193,8 @@ export const MainContent = styled.section`
   }
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px #ccc;
   }
   .instagram-media {
     margin: 1rem auto !important;
