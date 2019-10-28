@@ -184,6 +184,7 @@ h3 {
   font-family: verdana;  
   font-size: 18px;  
   font-weight: 300;
+  width: 400px;
 }
 
 .container {
