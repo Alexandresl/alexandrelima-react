@@ -55,7 +55,7 @@ Já no CSS, além de definir a largura máxima, as margens e colocar um borda na
   max-width: 800px;
   margin: 0 auto;
   border: 1px solid #ccc;
-  display: flex; /* ou inline-flex */
+  display: flex; /* ou inline-flex */
 }
 
 .item {
