@@ -10,4 +10,4 @@ background: '#2da0c3'
 ---
 No post anterior vimos os fundamentos do _Flexbox_ e como criar um contêiner. Neste post vamos ver quais as propriedades _Flexbox_ disponíveis.
 
-#### flex-direction
+### flex-direction
