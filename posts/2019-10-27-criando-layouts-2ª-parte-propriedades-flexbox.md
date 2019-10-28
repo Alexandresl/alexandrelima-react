@@ -138,6 +138,20 @@ Abaixo, temos ver os valores possíveis para a propriedade _flex-wrap_:
   <li class="flex-item">8</li>
 </ul>
 
+<h3>nowrap - com overflow</h3>
+<ul class="container nowrap">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+  <li class="flex-item">7</li>
+  <li class="flex-item">8</li>
+  <li class="flex-item">9</li>
+  <li class="flex-item">10</li>
+</ul>
+
 <h3>wrap</h3>
 <ul class="container wrap">
   <li class="flex-item">1</li>
@@ -162,19 +176,6 @@ Abaixo, temos ver os valores possíveis para a propriedade _flex-wrap_:
   <li class="flex-item">8</li>
 </ul>
 
-<h3>nowrap - com overflow</h3>
-<ul class="container nowrap">
-  <li class="flex-item">1</li>
-  <li class="flex-item">2</li>
-  <li class="flex-item">3</li>
-  <li class="flex-item">4</li>
-  <li class="flex-item">5</li>
-  <li class="flex-item">6</li>
-  <li class="flex-item">7</li>
-  <li class="flex-item">8</li>
-  <li class="flex-item">9</li>
-  <li class="flex-item">10</li>
-</ul>
 ```
 
 ```css
