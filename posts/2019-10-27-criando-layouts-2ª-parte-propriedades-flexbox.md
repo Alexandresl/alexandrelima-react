@@ -90,7 +90,7 @@ h3 {
 
 .column {
   flex-direction: column;
-  max-width: 55px
+  max-width: 55px;
 }
 
 .column-reverse {
@@ -104,10 +104,128 @@ h3 {
 }
 ```
 
-https://codepen.io/alexandresl/pen/qBBjGGK
+https://codepen.io/alexandresl/pen/qBBXWBr
 
 ### flex-wrap
 
+Todos os _flex itens_ tentarão, por padrão, caber em uma linha. Você pode alterar isso e permitir que os itens sejam agrupados conforme necessário com a propriedade `flex-wrap`
+
 ![Propriedade flex-wrap.](/assets/img/flex-wrap.jpg "Propriedade flex-wrap.")
 
-Todos os _flex itens_ tentarão, por padrão, caber em uma linha. Você pode alterar isso e permitir que os itens sejam agrupados conforme necessário com a propriedade `flex-wrap`
+Abaixo, temos ver os valores possíveis para a propriedade _flex-wrap_:
+
+```css
+.container{
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+```
+
+* **nowrap** - (padrão) todos os _flex itens_ estarão em uma única linha;
+* **wrap** - os _flex_itens_ são agrupados em várias linhas, de cima para baixo;
+* **wrap-reverse** _ os _flex itens_ são agrupados em várias linhas de vaixo para cima.
+
+```html
+<h3>nowrap</h3>
+<ul class="container nowrap">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+  <li class="flex-item">7</li>
+  <li class="flex-item">8</li>
+</ul>
+
+<h3>wrap</h3>
+<ul class="container wrap">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+  <li class="flex-item">7</li>
+  <li class="flex-item">8</li>
+</ul>
+
+<h3>wrap-reverse</h3>
+<ul class="container wrap-reverse">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+  <li class="flex-item">7</li>
+  <li class="flex-item">8</li>
+</ul>
+
+<h3>nowrap - com overflow</h3>
+<ul class="container nowrap">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+  <li class="flex-item">7</li>
+  <li class="flex-item">8</li>
+  <li class="flex-item">9</li>
+  <li class="flex-item">10</li>
+</ul>
+```
+
+```css
+h3 {  
+  text-align: center;  
+  color: #333;  
+  font-family: verdana;  
+  font-size: 18px;  
+  font-weight: 300;
+}
+
+.container {
+  max-width: 400px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+.nowrap  {
+  flex-wrap: nowrap;
+}
+
+.wrap    { 
+  flex-wrap: wrap;
+}  
+.wrap li {
+  background: gold;
+}
+
+.wrap-reverse { 
+  flex-wrap: wrap-reverse;
+}  
+.wrap-reverse li {
+  background: deepskyblue;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+```
+
+https://codepen.io/alexandresl/pen/KKKvPwO
+
+Como pode ser visto no exemplo, no caso do ```flex-wrap: nowrap;```, os _flex itens_ são redimensionados para poder caber no contêiner, mesmo que estes possuam largura fixada. Quando isso não é mais possível, os itens acabam por "vazarem" de dentro do container, como pode ser visto no último exemplo.
