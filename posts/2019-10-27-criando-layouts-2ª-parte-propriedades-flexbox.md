@@ -24,6 +24,12 @@ Veja abaixo as opções do _flex-direction_
 }
 ```
 
+* **row** - (padrão) da esquerda para direita ```ltr``` (padrão left to right) ou da direita para esquerda ```rtl```(padrão right to left);
+* **row-reverse** - da direita para esquerda ```ltr``` ou da esquerda para direita ```rtl```;
+* **column** - igual ao ```row```porém de cima para baixo;
+* **column-reverse** - igual ao ```row-reverse```porém de baixo para cima.
+
+
 Exemplo:
 
 ```html
@@ -101,4 +107,4 @@ h3 {
 
 https://codepen.io/alexandresl/pen/qBBjGGK
 
-__
+### 
