@@ -231,4 +231,4 @@ h3 {
 
 https://codepen.io/alexandresl/pen/KKKvPwO
 
-Como pode ser visto no exemplo, no caso do ```flex-wrap: nowrap;```, os _flex itens_ são redimensionados para poder caber no contêiner, mesmo que estes possuam largura fixada. Quando isso não é mais possível, os itens acabam por "vazarem" de dentro do container, como pode ser visto no último exemplo.
+Como pode ser visto no exemplo, no caso do ```flex-wrap: nowrap;```, os _flex itens_ são redimensionados para poder caber no contêiner, mesmo que estes possuam largura fixada. Quando isso não é mais possível, os itens acabam por "vazarem" de dentro do container, como pode ser visto no segundo exemplo.
