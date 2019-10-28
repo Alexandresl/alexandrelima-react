@@ -108,6 +108,19 @@ https://codepen.io/alexandresl/pen/qBBjGGK
 
 ### flex-wrap
 
+Todos os _flex itens_ tentarão, por padrão, caber em uma linha. Você pode alterar isso e permitir que os itens sejam agrupados conforme necessário com a propriedade `flex-wrap`
+
 ![Propriedade flex-wrap.](/assets/img/flex-wrap.jpg "Propriedade flex-wrap.")
 
-Todos os _flex itens_ tentarão, por padrão, caber em uma linha. Você pode alterar isso e permitir que os itens sejam agrupados conforme necessário com a propriedade `flex-wrap`
+Abaixo, temos ver os valores possíveis para a propriedade _flex-wrap_:
+
+```css
+.container{
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+```
+
+* **nowrap** - (padrão) todos os _flex itens_ estarão em uma única linha;
+* **wrap** - os _flex_itens_ são agrupados em várias linhas, de cima para baixo;
+* **wrap-reverse** _ os _flex itens_ são agrupados em várias linhas de vaixo para cima.
+
