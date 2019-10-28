@@ -24,11 +24,10 @@ Veja abaixo as opções do _flex-direction_
 }
 ```
 
-* **row** - (padrão) da esquerda para direita ```ltr``` (padrão left to right) ou da direita para esquerda ```rtl```(padrão right to left);
-* **row-reverse** - da direita para esquerda ```ltr``` ou da esquerda para direita ```rtl```;
-* **column** - igual ao ```row``` porém de cima para baixo;
-* **column-reverse** - igual ao ```row-reverse``` porém de baixo para cima.
-
+* **row** - (padrão) da esquerda para direita `ltr` (padrão left to right) ou da direita para esquerda `rtl`(padrão right to left);
+* **row-reverse** - da direita para esquerda `ltr` ou da esquerda para direita `rtl`;
+* **column** - igual ao `row` porém de cima para baixo;
+* **column-reverse** - igual ao `row-reverse` porém de baixo para cima.
 
 Exemplo:
 
@@ -107,4 +106,8 @@ h3 {
 
 https://codepen.io/alexandresl/pen/qBBjGGK
 
-### 
+### flex-wrap
+
+![Propriedade flex-wrap.](/assets/img/flex-wrap.jpg "Propriedade flex-wrap.")
+
+Todos os _flex itens_ tentarão, por padrão, caber em uma linha. Você pode alterar isso e permitir que os itens sejam agrupados conforme necessário com a propriedade `flex-wrap`
