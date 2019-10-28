@@ -18,12 +18,83 @@ Veja abaixo as opções do _flex-direction_
 
 ![Opções da propriedade flex-direction: row - row-reverse - column - column-reverse](/assets/img/flex-direction.jpg "Opções da propriedade flex-direction: row - row-reverse - column - column-reverse")
 
-_\`\``css_
+```css
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+```
 
-_.container {_
+Exemplo:
 
-  _flex-direction: row | row-reverse | column | column-reverse;_
+```html
+<h3>flex-direction - row</h3>
+<section class="container row">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</section>
 
-_}_
+<h3>flex-direction - row-reverse</h3>
+<section class="container row-reverse">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</section>
 
-_\`\``_
+<h3>flex-direction - column</h3>
+<section class="container column">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</section>
+
+<h3>flex-direction - column-reverse</h3>
+<section class="container column-reverse">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</section>
+```
+
+```css
+h3 {
+  text-align: center;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+  max-width: 55px
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+  max-width: 55px;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+```
+
+https://codepen.io/alexandresl/pen/qBBjGGK
+
+__
