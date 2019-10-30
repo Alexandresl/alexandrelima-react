@@ -240,3 +240,22 @@ A propriedade _flex-flow_ nada mais é do que uma abreviação das duas propried
 ```css
 flex-flow: <‘flex-direction’> || <‘flex-wrap’>
 ```
+
+Valores possíveis:
+
+```css
+flex-flow: row nowrap; 
+flex-flow: row-reverse nowrap;
+flex-flow: column nowrap;
+flex-flow: column-reverse nowrap; 
+flex-flow: row wrap;
+flex-flow: row-reverse wrap;
+flex-flow:column wrap; 
+flex-flow:column-reverse wrap;
+flex-flow:row wrap-reverse; 
+flex-flow:row-reverse wrap-reverse; 
+flex-flow:column wrap-reverse; 
+flex-flow:column-reverse wrap-reverse;
+```
+
+
