@@ -105,7 +105,7 @@ h3 {
 }
 ```
 
-https://codepen.io/alexandresl/pen/qBBjGGK
+https://codepen.io/alexandresl/pen/qBBXWBr
 
 ### flex-wrap
 
