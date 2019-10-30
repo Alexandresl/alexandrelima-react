@@ -105,7 +105,7 @@ h3 {
 }
 ```
 
-https://codepen.io/alexandresl/pen/qBBXWBr
+https://codepen.io/alexandresl/pen/qBBjGGK
 
 ### flex-wrap
 
@@ -231,4 +231,12 @@ h3 {
 
 https://codepen.io/alexandresl/pen/KKKvPwO
 
-Como pode ser visto no exemplo, no caso do ```flex-wrap: nowrap;```, os _flex itens_ são redimensionados para poder caber no contêiner, mesmo que estes possuam largura fixada. Quando isso não é mais possível, os itens acabam por "vazarem" de dentro do container, como pode ser visto no segundo exemplo.
+Como pode ser visto no exemplo, no caso do ```flex-wrap: nowrap;```, os _flex itens_ são redimensionados para poder caber no contêiner, mesmo que estes possuam largura fixada. Quando isso não é mais possível, os itens acabam por "vazar" de dentro do "container", como pode ser visto no segundo exemplo.
+
+### flex-flow
+
+A propriedade _flex-flow_ nada mais é do que uma abreviação das duas propriedades vistas anteriormente: _flex-direction_ e _flex_wrap_, que juntas definem o eixo-principal e transversal do _flex container_. O valor padrão desta propriedade é _row nowrap_.
+
+```css
+flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+```
