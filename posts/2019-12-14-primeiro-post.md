@@ -1,6 +1,6 @@
 ---
 title: 'Curso JavaScript - Aula #0 - Introdução'
-description: Sobre o que é este site?
+description: Qual o objetivo do Curso JavaScript?
 date: '2019-10-27 09:05:46'
 image: /assets/img/jsimage.jpg
 category: JS
