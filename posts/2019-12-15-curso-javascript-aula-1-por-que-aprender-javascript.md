@@ -18,7 +18,7 @@ Muitas empresas estão apostando em PWAs (Progressive Web Apps) ao invés de cri
 
 Com o NodeJS, o JavaScript está presente também no back-end. Você pode construir uma aplicação complexa e com demanda altíssima, de ponta a ponta, utilizando apenas o JavaScript.
 
-Além disso, em muitas pesquisas, o JavaScript encabeça a lista de linguagens mais populares ou mais procuradas por empresas, como por exemplo, a pesquisa realizada em 2019 pela [Stack Overflow](https://insights.stackoverflow.com/survey/2019/#top-paying-technologies).
+Além disso, em muitas pesquisas, o JavaScript encabeça a lista de linguagens mais populares ou mais procuradas por empresas, como por exemplo, a pesquisa realizada em 2019 pela [Stack Overflow](https://insights.stackoverflow.com/survey/2019/#most-popular-technologies).
 
 Convém mencionar, que existem algumas novas propostas, como o [WebAssembly](https://developer.mozilla.org/pt-BR/docs/WebAssembly), que permitem rodar também linguagem de baixo nível (binário) no navegador. Porém, a proposta testa tecnologia não é substituir o JavaScript, mas de rodar em conjunto com ele. Assim, não precisamos ficar preocupados, o JavaScript terá ainda relevância por muitos anos.
 
