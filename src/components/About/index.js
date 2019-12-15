@@ -24,9 +24,9 @@ const About = () => (
         principalmente sobre front end e todo o ambiente relacionado.
       </p>
       <p>
-        Ingressei em 2019 no Curso Superior de tecnologia em Sistemas para
-        Internet do IFRS (Instituto Federal de Educação, Ciência e Tecnologia do
-        Rio Grande do Sul.
+        Ingressei no primeiro semestre de 2019 no Curso Superior de tecnologia
+        em Sistemas para Internet do IFRS (Instituto Federal de Educação,
+        Ciência e Tecnologia do Rio Grande do Sul.
       </p>
     </S.AboutWrapper>
   </S.AboutWrapper>
