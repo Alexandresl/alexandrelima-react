@@ -1,21 +1,19 @@
 ---
-title: "Curso JavaScript - Aula #1 - Por que aprender JavaScript?"
+title: 'Curso JavaScript - Aula #1 - Por que aprender JavaScript?'
 description: Conheça algumas razões para aprender JavaScript.
-date: "2019-12-15 10:05:46"
+date: '2019-12-15 10:05:46'
 image: /assets/img/jsimage.jpg
 category: JS
-background: "#d6ba32"
+background: '#d6ba32'
 ---
 
-Antes de iniciarmos a preparar o ambiente de desenvolvimento e também de conhecermos a linguagem, vamos ver qual a importância do JavaScript hoje e se realmente vale a pena estudar esta linguagem.
+Antes mesmo de iniciarmos a preparar o ambiente de desenvolvimento, vamos ver qual a importância do JavaScript hoje e porque vale a pena estudar esta linguagem.
 
 ## JavaScript é a linguagem da web
 
-O JavaScript é a linguagem da web! Os navegadores que utilizamos entendem uma linguagem de programação, e esta linguagem é o JavaScript.
+A web, como conjunto de tecnologias e também conceitos, está presente em praticamente todas as iterações que realizamos utilizando a internet. Seja em nossos computadores pessoais, smartphones, tablets e até televisores. E a linguagem JavaScript é a linguagem da web! Os navegadores que utilizamos entendem uma linguagem de programação, o JavaScript.
 
-A web, como conjunto de tecnologias e também de conceitos, está presente em praticamente todas as iterações que realizamos utilizando a internet.
-
-Muitas empresas estão apostando em PWAs (Progressive Web Apps) ao invés de criarem aplicativos nativos para Androis e iOS. Existem também, frameworks, como o react native, que permitem a criação de apps nativos com esta linguagem.
+Acompanhamos inclusive, uma tendência de fortalecimento das tecnologias web. Muitas empresas estão apostando em PWAs (Progressive Web Apps) ao invés de criarem aplicativos nativos para Androis e iOS. Existem também, Frameworks, como o react native, que permitem a criação de apps nativos com JavaScript, HTML e CSS.
 
 Com o NodeJS, o JavaScript está presente também no back-end. Você pode construir uma aplicação complexa e com demanda altíssima, de ponta a ponta, utilizando apenas o JavaScript.
 
