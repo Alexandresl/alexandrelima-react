@@ -1,7 +1,7 @@
 ---
-title: 'Curso JavaScript - Aula #3 - Configuração do ambiente'
+title: 'Curso JavaScript - Aula #2 - Configuração do ambiente'
 description: O que precisamos instalar para poder executar nossos programas JavaScript?
-date: '2019-12-15 08:07:53'
+date: '2019-12-15 06:07:00'
 image: /assets/img/jsimage.jpg
 category: JS
 background: '#d6ba32'
