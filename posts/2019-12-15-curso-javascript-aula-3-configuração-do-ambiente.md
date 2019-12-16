@@ -18,6 +18,24 @@ Ao acessar a página você verá em destaque duas versões: A LTS (long term sup
 
 Ao realizar a instalação, além do NodeJS, você estará instalando o NPM (Node Package Manager) que é o gerenciador de pacotes do Node (posteriormente vamos entender sua função) e também estará adicionando o Node no Path do sistema.
 
-Com a adição do NodeJS no Path do sistema, nós conseguiremos executar JavaScript fora do nosso navegador, seja do terminal do sistema operacional, quanto de editores de texto, quando estes possuírem esse recurso.
+Com a adição do NodeJS no Path do sistema, nós conseguiremos executar o JavaScript fora do nosso navegador, seja do terminal do sistema operacional, quanto de editores de texto, quando estes possuírem este recurso.
+
+Após instalar, para verificar se tudo ocorreu como o esperado. Abra o terminal do seu sistema operacional e digite os comandos:
+
+```
+node --version
+```
+
+para verificar a versão do NodeJS instalado. Neste momento estou com o 12.13.1.
+
+```
+npm --version
+```
+
+que este momento está na versão 6.12.1.
+
+
+
+
 
 
