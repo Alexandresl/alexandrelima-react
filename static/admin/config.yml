@@ -49,8 +49,8 @@ collections:
               { label: "C", value: "#eb7728" },
               { label: "Java", value: "#000" },
               { label: "React", value: "#7d669e" },
-              { label: "Angular", value: "#7d669e" },
-              { label: "HTML", value: "#eb7728" },
+              { label: "Angular", value: "#7d669f" },
+              { label: "HTML", value: "#eb7727" },
               { label: "misc", value: "#7aab13" },
             ],
         }
