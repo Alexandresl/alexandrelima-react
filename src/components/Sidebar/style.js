@@ -5,6 +5,7 @@ export const SidebarWrapper = styled.aside`
   align-items: center;
   border-right: 1px solid var(--borders);
   background: var(--background);
+  background: linear-gradient(150deg, var(--background) 0%, var(--background-grad) 100%);
   box-shadow: 0 0 4px var(--black);
   display: flex;
   flex-direction: column;

@@ -70,6 +70,7 @@ const GlobalStyles = createGlobalStyle`
     --highlight: #3f5bba;
     --mediumBackground: #3B3C40;
     --background: #252526;
+    --background-grad: #414145;
     --white: #fff;
     --black: #222;
   }
@@ -81,6 +82,7 @@ const GlobalStyles = createGlobalStyle`
     --highlight: #1fa1f2;
     --mediumBackground: #f0f0f3;
     --background: #fff;
+    --background-grad: #f9f9ff;
     --white: #fff;
     --black: #222
   } 
