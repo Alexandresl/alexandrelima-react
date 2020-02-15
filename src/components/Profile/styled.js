@@ -12,7 +12,7 @@ export const ProfileLink = styled(AniLink)`
   text-decoration: none;
   transition: color 0.5s;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     display: flex;
     text-align: left;  
   `}
@@ -28,7 +28,7 @@ export const ProfileAuthor = styled.h1`
   display: inline-flex;
   border-bottom: 1px solid var(--postColor);
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     font-size: 1.2rem;
     margin: 0 0 0 10px;
     border-bottom: none;
@@ -53,7 +53,7 @@ export const ProfilePosition = styled.small`
   font-size: 1.1rem;
   font-weight: 100;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     display: none;
   `}
 `
@@ -63,7 +63,7 @@ export const ProfileDescription = styled.p`
   line-height: 1.4;
   margin-top: 15px;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     display: none;
   `}
 `

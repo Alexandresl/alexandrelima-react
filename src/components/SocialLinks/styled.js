@@ -5,7 +5,7 @@ export const SocialLinksWrapper = styled.nav`
   margin: 20px auto;
   width: 100%;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     display: none;
   `}
 `

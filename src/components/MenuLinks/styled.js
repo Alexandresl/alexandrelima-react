@@ -3,7 +3,7 @@ import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const MenuLinksWrapper = styled.nav`
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     display: none;
   `}
 `

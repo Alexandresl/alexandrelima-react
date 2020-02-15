@@ -17,7 +17,7 @@ export const MenuBarWrapper = styled.aside`
   width: 50px;
   transition: background 0.5s;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     border-top: 1px solid var(--borders);
     bottom: 0;
     flex-direction: row;
@@ -34,7 +34,7 @@ export const MenuBarGroup = styled.div`
   display: flex;
   flex-direction: column;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     flex-direction: row;
   `}
 `
@@ -72,7 +72,7 @@ export const MenuBarItem = styled.span`
   }
 
   &.display {
-    ${media.lessThan("medium")`
+    ${media.lessThan("large")`
       display: none;
     `}
   }
@@ -81,7 +81,7 @@ export const MenuBarItem = styled.span`
       color: var(--highlight);
     }
   `}
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     height: 3.2rem;
     padding: .9rem;
     position: relative;

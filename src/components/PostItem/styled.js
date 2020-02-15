@@ -31,7 +31,7 @@ export const PostItemWrapper = styled.section`
     justify-content: center;
   }
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     align-items: flex-start;
     flex-direction: column;
     padding: 2rem 1rem;
@@ -52,7 +52,7 @@ export const PostItemTag = styled.div`
   min-width: 90px;
   text-transform: uppercase;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     border-radius: 0;
     font-size: 1rem;
     min-height: auto;
@@ -71,7 +71,7 @@ export const PostItemInfo = styled.div`
   flex-direction: column;
   margin-left: 1.5rem;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     margin: 0;
   `}
 `
