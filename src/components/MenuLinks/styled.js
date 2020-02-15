@@ -3,9 +3,7 @@ import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const MenuLinksWrapper = styled.nav`
-  ${media.lessThan("large")`
-    display: none;
-  `}
+  
 `
 
 export const MenuLinksList = styled.ul`
@@ -14,6 +12,10 @@ export const MenuLinksList = styled.ul`
 `
 export const MenuLinkItem = styled.li`
   padding: 2px 0;
+
+  ${media.lessThan("large")`
+    display: inline;
+    margin: 0 5px `}
 
   .active {
     color: var(--highlight);
