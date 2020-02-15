@@ -40,6 +40,8 @@ collections:
               "Angular",
               "HTML",
               "misc",
+              "Flutter",
+              "Dart"
             ],
         }
       - {
@@ -57,6 +59,8 @@ collections:
               { label: "Angular", value: "#7d669f" },
               { label: "HTML", value: "#eb7727" },
               { label: "misc", value: "#7aab13" },
+              { label: "Flutter", value: "#075b9a" },
+              { label: "Dart", value: "#00c4b3" },
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }
