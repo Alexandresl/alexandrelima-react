@@ -36,15 +36,15 @@ export const ProfileAuthor = styled.h1`
   `}
 `
 
-export const p1 = styled.h1`
+export const p1 = styled.span`
   color: #ba3f3f;
 `
 
-export const p2 = styled.h1`
+export const p2 = styled.span`
   color: var(--postColor);
 `
 
-export const p3 = styled.h1`
+export const p3 = styled.span`
   color: var(--highlight);
 `
 

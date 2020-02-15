@@ -26,19 +26,21 @@ const BlogList = props => {
             node: {
               frontmatter: { background, category, date, description, title },
               timeToRead,
+              id,
               fields: { slug },
             },
           }) => (
-            <PostItem
-              slug={slug}
-              category={category}
-              background={background}
-              date={date}
-              timeToRead={timeToRead}
-              title={title}
-              description={description}
-            />
-          )
+              <PostItem
+                key={id}
+                slug={slug}
+                category={category}
+                background={background}
+                date={date}
+                timeToRead={timeToRead}
+                title={title}
+                description={description}
+              />
+            )
         )}
       </S.ListWrapper>
       <Pagination
@@ -70,6 +72,7 @@ export const query = graphql`
             title
           }
           timeToRead
+          id
           fields {
             slug
           }

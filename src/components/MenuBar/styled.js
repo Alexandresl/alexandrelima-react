@@ -21,11 +21,12 @@ export const MenuBarWrapper = styled.aside`
     border-top: 1px solid var(--borders);
     bottom: 0;
     flex-direction: row;
-    height: auto;
+    height: 53px;
     padding: 0;
     position: fixed;
     width: 100%;
     border-top: 1px solid var(--borders);
+    border-left: none;
   `}
 `
 
@@ -56,6 +57,7 @@ export const MenuBarItem = styled.span`
   padding: 1.1rem;
   position: relative;
   width: 3.75rem;
+  
   transition: color 1s;
   &.light {
     color: #d4d400;
@@ -84,5 +86,10 @@ export const MenuBarItem = styled.span`
     padding: .9rem;
     position: relative;
     width: 3.2rem;
+
+    &.theme > svg {
+      height: 23px;
+    }
+
   `}
 `

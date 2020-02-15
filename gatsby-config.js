@@ -8,9 +8,9 @@ module.exports = {
     titleP1: `alexandreLima`,
     titleP2: `.`,
     titleP3: `dev()`,
-    author: `Alexandre Lima - Desenvolvedor Web`,
+    author: `Alexandre Lima - Desenvolvedor Web e mobile`,
     position: `Desenvolvedor Web`,
-    description: `Blog sobre programação web.`,
+    description: `Blog sobre programação web e mobile.`,
     siteUrl: "https://alexandrelima.dev",
   },
   plugins: [
