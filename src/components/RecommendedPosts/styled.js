@@ -7,6 +7,7 @@ export const RecommendedWrapper = styled.section`
   border-top: 1px solid var(--borders);
   background: var(--mediumBackground);
   display: flex;
+  flex-direction: column;
 `
 
 export const RecommendedLink = styled(AniLink)`
@@ -29,10 +30,12 @@ export const RecommendedLink = styled(AniLink)`
     background: var(--background);
   }
   &.previous {
-    border-right: 1px solid var(--background);
+    border-right: 1px solid var(--borders);
   }
   &.next {
     justify-content: flex-end;
+    align-self: flex-end;
+    border-left: 1px solid var(--borders);
   }
   &.previous:before {
     content: "\\2190";
