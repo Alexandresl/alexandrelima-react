@@ -192,10 +192,11 @@ export const MainContent = styled.section`
     }
   }
   .gatsby-highlight {
-    padding: 0 1.6rem 1.6rem;
+    padding: 0 0 1.6rem;
   }
   .gatsby-highlight > pre {
-    border-radius: 10px;
+    border-radius: 0;
+    box-shadow: 5px 5px 5px var(--background);
   }
   .instagram-media {
     margin: 1rem auto !important;
