@@ -197,7 +197,15 @@ export const MainContent = styled.section`
   .gatsby-highlight > pre {
     border-radius: 0;
     box-shadow: 5px 5px 5px var(--background);
+
+    ${media.lessThan("large")`
+      box-shadow: none;
+      border-bottom: 1px solid var(--borders);
+      border-top: 1px solid var(--borders);
+    `}
+
   }
+  
   .instagram-media {
     margin: 1rem auto !important;
   }
