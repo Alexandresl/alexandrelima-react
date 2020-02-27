@@ -18,6 +18,11 @@ main () {
 }
 ```
 
+**Exemplo 1**
+<script src="https://gist.github.com/Alexandresl/7512f8a79562fa16ff0f52a8ee58f4bf.js"></script>
+
+<script src="https://dartpad.com/Alexandresl/7512f8a79562fa16ff0f52a8ee58f4bf.js"></script>
+
 * O trecho ``` // Esta é uma função especial ``` representa um comentário de uma única linha. O Dart suporta também outros tipos de comentários que serão abordados em outro momento.
 * O ``` main () { ... } ``` é uma função especial. A execução da aplicação será iniciada por esta função.
 * O ``` print() ``` é uma das formas de imprimir algo em tela.
