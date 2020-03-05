@@ -11,6 +11,7 @@ export const ProfileLink = styled(AniLink)`
   color: var(--postColor);
   text-decoration: none;
   transition: color 0.5s;
+  margin-bottom: 15px;
 
   ${media.lessThan("large")`
     display: flex;
@@ -61,9 +62,25 @@ export const ProfileDescription = styled.p`
   font-size: 0.8rem;
   font-weight: 300;
   line-height: 1.4;
-  margin-top: 15px;
+  margin: 5px 0;
 
   ${media.lessThan("large")`
     display: none;
   `}
+`
+
+export const ProfileMail = styled.a`
+  color: var(--texts);
+  font-size: 0.8rem;
+  margin: 2px auto;
+  display: inline-flex;
+  transition: color 0.5s;
+
+  ${media.lessThan("large")`
+    display: none;
+  `}
+
+  &:hover {
+    color: var(--highlight);
+  }
 `

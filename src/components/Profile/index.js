@@ -9,7 +9,7 @@ import getThemeColor from "../../utils/getThemeColor"
 const Profile = () => {
   const {
     site: {
-      siteMetadata: { titleP1, titleP2, titleP3, position, description },
+      siteMetadata: { titleP1, titleP2, titleP3, position, description, mail },
     },
   } = useStaticQuery(graphql`
     query MySiteMetadata {
@@ -20,6 +20,7 @@ const Profile = () => {
           titleP3
           description
           position
+          mail
         }
       }
     }
@@ -43,6 +44,7 @@ const Profile = () => {
         <S.ProfilePosition>{position}</S.ProfilePosition>
       </S.ProfileLink>
       <S.ProfileDescription>{description}</S.ProfileDescription>
+      <S.ProfileMail href="mailto:contato@alexandnrelima.dev">{mail}</S.ProfileMail>
     </S.profileWrapper>
   )
 }

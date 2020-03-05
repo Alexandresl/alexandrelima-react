@@ -11,7 +11,8 @@ module.exports = {
     author: `Alexandre Lima - Desenvolvedor Web e mobile`,
     position: `Desenvolvedor Web`,
     description: `Blog sobre programação web e mobile.`,
-    siteUrl: "https://alexandrelima.dev",
+    mail: `contato@alexandrelima.dev`,
+    siteUrl: `https://alexandrelima.dev`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
